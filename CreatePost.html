@@ -1,1 +1,20 @@
-
+<!--
+Exercise 3: Create Post
+-->
+<!DOCTYPE html>
+<html lang=en>
+  <head>
+    <title>Create Post</title>
+  </head>
+  
+  <body>
+    Create a new post:<br>
+    <form action="CreatePost.php" method="post">
+      <label for="user_id">User ID: </label>
+      <input type="text" id="user_id" name="user_id"><br>
+      <label for="new_post">What do you want to say? (Limit 300 characters)</label><br>
+      <input type="text" id="new_post" name="new_post" maxlength="300"><br>
+      <input type="submit" value="Create!"><br>
+    </form>
+  </body>
+</html>
